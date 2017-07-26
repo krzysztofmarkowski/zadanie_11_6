@@ -16,7 +16,7 @@ module.exports = function(grunt) {
         files: [{  
           expand: true,  
           cwd: 'grafika-nieskompresowana/',  
-          src: ['**/*.{png,jpg,gif}'],  
+          src: ['**/*.{png,jpg,jpeg,gif}'],  
           dest: 'images/'  
         }]  
       }  
